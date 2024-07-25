@@ -6,8 +6,6 @@ services:
       - "8000:8000"
     env_file:
       - .env
-    environment:
-      - LLM_API_URL=${LLM_API_URL}
     volumes:
       - ./chatlog:/app/chatlog
       - ./context:/app/context

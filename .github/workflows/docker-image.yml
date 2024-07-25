@@ -39,8 +39,8 @@ jobs:
         with:
           push: ${{ github.event_name != 'pull_request' }}
           tags: |
-            thegenuinedockeruser/whatsappweb-llm-backend:${{ env.VERSION }}
-            thegenuinedockeruser/whatsappweb-llm-backend:latest
+            thegenuinedockeruser/cv-chat:${{ env.VERSION }}
+            thegenuinedockeruser/cv-chat:latest
           platforms: linux/amd64,linux/arm64
 
 
