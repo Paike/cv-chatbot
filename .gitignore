@@ -1,0 +1,14 @@
+__pycache__
+.venv
+.cache
+.chainlit/translations
+.env
+logfiles
+logs
+.DS_Store
+.git
+src/constants.py
+src/tools.py
+src/prompts.py
+chatlog
+context
